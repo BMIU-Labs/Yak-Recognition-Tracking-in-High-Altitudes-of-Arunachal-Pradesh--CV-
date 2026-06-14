@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Yak-Recognition-and-Tracking-in-High-Altitudes-of-Arunachal-Pradesh(CV)">
+  <meta name="description" content="An automated computer vision framework to track shelter entry/exit events and recognize individual yaks in high-altitude regions of Arunachal Pradesh.">
+  <meta name="keywords" content="Yak Re-identification, Object tracking, YOLO, ByteTrack, Entry-exit monitoring, Precision livestock farming, Computer vision">
+  <meta name="author" content="Prasenjit Kherkatary, Sningrik D Sangma, Laiphrakpam Indrason Meitei, Rupesh Mandal">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Assam Don Bosco University & ICAR-NRCY">
+  <meta property="og:title" content="Yak-Recognition-and-Tracking-in-High-Altitudes-of-Arunachal-Pradesh(CV)">
+  <meta property="og:description" content="An automated computer vision framework to track shelter entry/exit events and recognize individual yaks in high-altitude regions of Arunachal Pradesh.">
+  <meta property="og:url" content="https://bmiu-labs.github.io/Yak-Recognition-and-Tracking-in-High-Altitudes-of-Arunachal-Pradesh--CV-/">
+  <meta property="og:image" content="static/images/screenshot1.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Yak-Recognition-and-Tracking-in-High-Altitudes-of-Arunachal-Pradesh(CV)">
+  <meta name="twitter:description" content="An automated computer vision framework to track shelter entry/exit events and recognize individual yaks in high-altitude regions of Arunachal Pradesh.">
+  <meta name="twitter:image" content="static/images/screenshot1.png">
+
+  <!-- Academic/Research Specific -->
+  <meta name="citation_title" content="Yak-Recognition-and-Tracking-in-High-Altitudes-of-Arunachal-Pradesh(CV)">
+  <meta name="citation_author" content="Kherkatary, Prasenjit">
+  <meta name="citation_author" content="Sangma, Sningrik D.">
+  <meta name="citation_author" content="Meitei, Laiphrakpam Indrason">
+  <meta name="citation_author" content="Mandal, Rupesh">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_pdf_url" content="https://bmiu-labs.github.io/Yak-Recognition-and-Tracking-in-High-Altitudes-of-Arunachal-Pradesh--CV-/">
+  
+  <meta name="theme-color" content="#2563eb">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+  <title>Yak-Recognition-and-Tracking-in-High-Altitudes-of-Arunachal-Pradesh(CV)</title>
+  
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Defer JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+
+  <style>
+    /* Premium accents */
+    .publication-title {
+      font-weight: 800;
+      color: #1e293b;
+      margin-bottom: 1.5rem !important;
+    }
+    .author-block a {
+      color: #2563eb;
+      font-weight: 500;
+    }
+    .author-block a:hover {
+      text-decoration: underline;
+    }
+    .publication-links .link-block a {
+      transition: all 0.3s ease;
+    }
+    .publication-links .link-block a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    .carousel-item-img {
+      max-height: 480px;
+      object-fit: contain;
+      width: 100%;
+      background: #f8fafc;
+      border-radius: 8px;
+    }
+    .carousel-caption-box {
+      background: rgba(30, 41, 59, 0.03);
+      padding: 1rem;
+      border-left: 4px solid #2563eb;
+      border-radius: 0 4px 4px 0;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- More Works Dropdown -->
+  <div class="more-works-container">
+    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Projects from BMIU Labs">
+      <i class="fas fa-flask"></i>
+      Labs Portal
+      <i class="fas fa-chevron-down dropdown-arrow"></i>
+    </button>
+    <div class="more-works-dropdown" id="moreWorksDropdown">
+      <div class="dropdown-header">
+        <h4>BMIU Labs Projects</h4>
+        <button class="close-btn" onclick="toggleMoreWorks()">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="works-list">
+        <a href="https://github.com/BMIU-Labs" class="work-item" target="_blank">
+          <div class="work-info">
+            <h5>BMIU Labs GitHub</h5>
+            <p>Explore all active research and developmental codebases.</p>
+            <span class="work-venue">GitHub Organization</span>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Yak-Recognition-and-Tracking-in-High-Altitudes-of-Arunachal-Pradesh(CV)</h1>
+            
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://github.com/BMIU-Labs" target="_blank">Prasenjit Kherkatary</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://github.com/BMIU-Labs" target="_blank">Sningrik D Sangma</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://github.com/BMIU-Labs" target="_blank">Laiphrakpam Indrason Meitei</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://github.com/BMIU-Labs" target="_blank">Rupesh Mandal</a><sup>2</sup>
+              </span>
+            </div>
+
+            <div class="is-size-6 publication-authors mt-3">
+              <span class="author-block"><sup>1</sup>Department of Computer Science, Assam Don Bosco University, Guwahati, Assam, India</span><br>
+              <span class="author-block"><sup>2</sup>Animal Physiology, ICAR-National Research Centre on Yak, Dirang, Arunachal Pradesh, India</span>
+            </div>
+
+            <div class="column has-text-centered mt-4">
+              <div class="publication-links">
+                <!-- Paper Link -->
+                <span class="link-block">
+                  <a href="javascript:void(0);" onclick="alert('Paper preprint will be uploaded soon, upon confirmation of publication.')"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper (Coming Soon)</span>
+                </a>
+              </span>
+
+              <!-- Code Link -->
+              <span class="link-block">
+                <a href="javascript:void(0);" onclick="alert('Code will be uploaded soon, upon confirmation of publication.')"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>Code (Coming Soon)</span>
+              </a>
+            </span>
+
+            <!-- Dataset Link -->
+            <span class="link-block">
+              <a href="https://drive.google.com/drive/folders/1HJnFmLmLPgELafp5ZUwZfM0NJf6Yf9M1?usp=sharing" target="_blank"
+              class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <i class="fas fa-database"></i>
+              </span>
+              <span>Dataset</span>
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Automating the monitoring of individual yaks in remote, high-altitude shelters is critical for precision livestock farming, yet traditional physical tagging and manual headcounts are highly challenging to implement. In this work, we present <strong>YakFlow</strong>, an end-to-end computer vision framework that automates shelter occupancy tracking by detecting, tracking, and recognizing individual yaks from CCTV footage.
+          </p>
+          <p>
+            The proposed pipeline integrates a domain-adapted YOLO11n object detector, a ByteTrack multi-object tracker to maintain frame-to-frame identity, and a ResNet50 re-identification embedding network to resolve long-term appearance matching. Using a custom dataset of 7,169 images annotated at the ICAR-National Research Centre on Yak (Dirang, Arunachal Pradesh, India), the fine-tuned YOLO11n detector achieves an exceptional precision of 0.9995, a recall of 0.9987, and an mAP@0.5:0.95 of 0.987 across 10 individual yak classes. To track shelter events, a coordinate-defined virtual gate registers entry and exit crossings with a five-second suppression window. The framework automatically outputs annotated tracking streams and structured Excel logs, providing farm managers with a robust, non-invasive solution for retrospective herd analysis in extreme high-altitude environments.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered mb-5">Framework Performance & Outputs</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        
+        <div class="item">
+          <img class="carousel-item-img" src="static/images/screenshot1.png" alt="Yak detection output" loading="lazy"/>
+          <div class="carousel-caption-box">
+            <h2 class="subtitle is-6 has-text-centered">
+              <strong>Figure 1: High-Precision Object Detection (YOLO11n)</strong><br>
+              Domain-adapted object detection results showing accurate bounding box predictions and high confidence scores across multiple yaks within the shelter environment.
+            </h2>
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="carousel-item-img" src="static/images/screenshot2.png" alt="Multi-object tracking output" loading="lazy"/>
+          <div class="carousel-caption-box">
+            <h2 class="subtitle is-6 has-text-centered">
+              <strong>Figure 2: Multi-Object Tracking & Identity Consistency (ByteTrack)</strong><br>
+              Real-time movement tracking visualizer indicating continuous track ID preservation and handling of transient occlusions under crowded gate conditions.
+            </h2>
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="carousel-item-img" src="static/images/screenshot3.png" alt="Re-identification embeddings mapping" loading="lazy"/>
+          <div class="carousel-caption-box">
+            <h2 class="subtitle is-6 has-text-centered">
+              <strong>Figure 3: Deep Feature Re-Identification (ResNet50)</strong><br>
+              Extraction of deep feature embeddings from target crops and cosine-similarity matching against reference templates to ensure long-term identity maintenance.
+            </h2>
+          </div>
+        </div>
+
+        <div class="item">
+          <img class="carousel-item-img" src="static/images/screenshot4.png" alt="Entry-exit virtual gate logs" loading="lazy"/>
+          <div class="carousel-caption-box">
+            <h2 class="subtitle is-6 has-text-centered">
+              <strong>Figure 4: Virtual Gate Crossings & Structured Analytics</strong><br>
+              Automated entry/exit event logging trigger zone and corresponding retrospective Excel logs reporting visit timestamps and shelter occupancy duration.
+            </h2>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End image carousel -->
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <div class="bibtex-header">
+      <h2 class="title">BibTeX</h2>
+      <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+        <i class="fas fa-copy"></i>
+        <span class="copy-text">Copy</span>
+      </button>
+    </div>
+    <pre id="bibtex-code"><code>@article{kherkatary2026yakflow,
+  title={Yak-Recognition-and-Tracking-in-High-Altitudes-of-Arunachal-Pradesh(CV)},
+  author={Kherkatary, Prasenjit and Sangma, Sningrik D. and Meitei, Laiphrakpam Indrason and Mandal, Rupesh},
+  journal={Assam Don Bosco University \& ICAR-National Research Centre on Yak},
+  year={2026},
+  note={Publication Pending / Code will be uploaded upon confirmation of publication}
+}</code></pre>
+  </div>
+</section>
+<!--End BibTex citation -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content has-text-centered">
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> adopted from <a href="https://nerfies.github.io" target="_blank">Nerfies</a>.
+          </p>
+          <p>
+            © 2026 BMIU Labs. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
