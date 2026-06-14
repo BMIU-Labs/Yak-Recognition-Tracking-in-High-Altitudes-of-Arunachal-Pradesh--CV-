@@ -18,6 +18,7 @@ Official repository for the paper: **"Yak-Recognition-and-Tracking-in-High-Altit
 Automating the monitoring of individual yaks in remote, high-altitude shelters is critical for precision livestock farming, yet traditional physical tagging and manual headcounts are highly challenging to implement. In this work, we present **YakFlow**, an end-to-end computer vision framework that automates shelter occupancy tracking by detecting, tracking, and recognizing individual yaks from CCTV footage. 
 
 More Details coming soon.
+
 ---
 
 ## Dataset
