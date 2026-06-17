@@ -2,7 +2,7 @@
 
 Official repository for the paper: **"Yak-Recognition-and-Tracking-in-High-Altitudes-of-Arunachal-Pradesh(CV)"**.
 
-[**Project Page**](https://bmiu-labs.github.io/Yak-Recognition-and-Tracking-in-High-Altitudes-of-Arunachal-Pradesh--CV-/) | [**Dataset (Google Drive)**](https://drive.google.com/drive/folders/1HJnFmLmLPgELafp5ZUwZfM0NJf6Yf9M1?usp=sharing)
+[**Project Page**]([https://bmiu-labs.github.io/Yak-Recognition-and-Tracking-in-High-Altitudes-of-Arunachal-Pradesh--CV-/](https://bmiu-labs.github.io/Yak-Recognition-Tracking-in-High-Altitudes-of-Arunachal-Pradesh--CV-/)) | [**Dataset (Google Drive)**](https://drive.google.com/drive/folders/1HJnFmLmLPgELafp5ZUwZfM0NJf6Yf9M1?usp=sharing)
 
 ---
 
