@@ -34,3 +34,7 @@ The dataset used in this work contains 7,169 annotated images of yaks across 10 
 *   **Sningrik D Sangma** - Department of Computer Science, Assam Don Bosco University, Guwahati, Assam, India
 *   **Laiphrakpam Indrason Meitei** - Department of Computer Science, Assam Don Bosco University, Guwahati, Assam, India
 *   **Rupesh Mandal** - Animal Physiology, ICAR-National Research Centre on Yak, Dirang, Arunachal Pradesh, India
+
+---
+
+*Project page hosted via GitHub Pages — BMIU Labs, 2026.*
