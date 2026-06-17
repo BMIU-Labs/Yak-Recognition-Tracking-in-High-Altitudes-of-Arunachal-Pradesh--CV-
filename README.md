@@ -38,3 +38,5 @@ The dataset used in this work contains 7,169 annotated images of yaks across 10 
 ---
 
 *Project page hosted via GitHub Pages — BMIU Labs, 2026.*
+
+<!-- last updated: June 17, 2026 -->
